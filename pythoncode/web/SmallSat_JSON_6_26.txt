@@ -1,0 +1,1792 @@
+{"data": {
+    "94422": {
+        "id": 94422,
+        "lastUpdated": "2018-10-10",
+        "title": "Development of far-UV-sensitive silicon imaging arrays for compact UV instrumentation",
+        "status": "Active",
+        "startDate": "Sep 2018",
+        "endDate": "Aug 2021",
+        "description": "Recent advances in the UV responsivity of silicon-based imaging arrays motivate us to develop and test a fully UV-optimized CMOS-detector focal-plane array (FPA) prototype. Notable innovations in silicon-based FPAs have led to the development of detectors with quantum efficiencies at mid-UV wavelengths (200-300 nm) that are competitive with state of the art microchannel plate (MCP) technology (e.g., Bai et al., SPIE, 2008; Nikzad et al., 2011) with the added advantage that, unlike MCPs, they do not require high-voltage power supplies. Hence, the utilization of these innovative detectors in future UV spectrographs or imagers will reduce the power, mass and complexity of such instruments over their current equivalents, making them well-suited for future low-cost planetary missions including those based on CubeSats and other SmallSat platforms. In previous studies we characterized the far-UV (100-200 nm) performance of UV-optimized n-type silicon devices at SwRI (Davis et al, SPIE 2012) and began to develop methods of enhancing the far-UV response by doping thinned-silicon wafers with antimony using Molecular Beam Epitaxy (MBE) (Retherford et al., JATIS, 2015). This work demonstrated that the MBE process is feasible for silicon wafers with thicknesses as little as 100 microns; an important result, given the short absorption depth of far-UV photons in silicon. Methods of cleaning the wafers prior to MBE were investigated at MIT Lincoln Laboratory, and the MBE process was optimized through a series of experiments in which the target doping concentrations, growth temperatures and epitaxial-silicon thicknesses were varied. Exploiting this initial success, we intend to (1) complete the optimization of the MBE process for n-type backside-illuminated CMOS hybrid arrays from Teledyne, (2) expand the assessment to include MBE process on state-of-the-art p-type CMOS monolithic arrays made using ~10-micron epitaxial-wafers from Teledyne e2v, and investigate options for anti-reflectance coatings to reject longer wavelength light, and (3) fabricate and test UV-optimized photodiodes, analyzing their response to wavelengths from far UV to the visible. We will also develop a full prototype FUV-optimized CMOS FPA taking advantage of flight-heritage array formats such as HAWAII-1RG. For the component technologies developed in this program, the entrance TRL of 3 will be raised to TRL 4 or higher upon exiting the program. Once developed, these UV-optimized devices will enable highly capable SmallSat investigations of lunar polar volatiles, Venusian upper atmosphere composition and dynamics, water vapor plumes at Enceladus and/or Europa, and other targeted science measurements detailed within the Vision and Voyages Planetary Decadal Survey.",
+        "benefits": "Our development of UV-sensitive CMOS detectors will facilitate more compact UV instrumentation. This is potentially beneficial to any future NASA missions with the goal of characterizing planetary surfaces and atmospheres, but is particularly important for small satellite and CubeSat missions, which lack the resources to carry typical microchannel plate-based UV instruments.",
+        "technologyMaturityStart": "3",
+        "technologyMaturityCurrent": "3",
+        "technologyMaturityEnd": "4",
+        "destinations": [
+            "Others Inside the Solar System"
+        ],
+        "responsibleProgram": "Planetary Instrument Concepts for the Advancement of Solar System Observations",
+        "responsibleMissionDirectorateOrOffice": "Science Mission Directorate",
+        "leadOrganization": {
+            "name": "Southwest Research Institute",
+            "type": "Academic",
+            "acronym": "SWRI",
+            "city": "San Antonio",
+            "state": "TX",
+            "country": "United States"
+        },
+        "workLocations": [
+            "California",
+            "Massachusetts",
+            "Texas"
+        ],
+        "programDirectors": [
+            "James Green"
+        ],
+        "programManagers": [
+            "James R Gaier"
+        ],
+        "principalInvestigators": [
+            "Philippa M Molyneux"
+        ],
+        "coInvestigators": [
+            "Ronald B Kalmbach",
+            "Yibin Bai",
+            "Michael Davis",
+            "James W Beletic",
+            "Kurt D Retherford",
+            "Ujjwal Raut",
+            "Kevin K Ryu",
+            "James A Gregory"
+        ],
+        "libraryItems": [ ],
+        "supportingOrganizations": [
+            {
+                "name": "Teledyne Scientific and Imaging",
+                "type": "Industry",
+                "acronym": null,
+                "city": null,
+                "state": null,
+                "country": null
+            }
+        ],
+        "primaryTas": [
+            {
+                "id": 10519,
+                "code": "TA8",
+                "title": "Science Instruments, Observatories, and Sensor Systems",
+                "priority": null
+            },
+            {
+                "id": 8857,
+                "code": "TA8.1",
+                "title": "Remote Sensing Instruments and Sensors",
+                "priority": null
+            },
+            {
+                "id": 9096,
+                "code": "TA8.1.1",
+                "title": "Detectors and Focal Planes",
+                "priority": null
+            }
+        ],
+        "additionalTas": [ ]
+    },
+    
+    "94406": {
+        "id": 94406,
+        "lastUpdated": "2018-10-10",
+        "title": "GTOSat: A 6U CubeSat in Geosynchronous Transfer Orbit to Study Radiation Belt Dynamics",
+        "status": "Active",
+        "startDate": "Feb 2018",
+        "endDate": "Jan 2022",
+        "description": "We propose a 4-year 6-U CubeSat mission with the primary science goal of advancing our quantitative understanding of acceleration and loss of relativistic electrons in the Earth's outer radiation belt. From a low inclination geosynchronous transfer orbit (GTO), GTOSat will measure electron spectra and pitch angles of both the seed and the energized electron populations simultaneously, using a compact, high-heritage Relativistic Electron Magnetic Spectrometer (REMS), a customized version of the MagEIS-Medium instruments from NASA's Van Allen Probes mission. A boom-mounted fluxgate magnetometer will provide 3-axis knowledge of the ambient local magnetic field. These high quality particle and field measurements enable direct measurement of spectral and pitch angle evolution of the outer radiation belt. and calculation of physically significant quantities, such as phase space density (PSD) and its radial gradients, which are necessary to discriminate between radial transport and in-situ modes of electron energization. GTOSat will fly in a highly elliptical GTO, with nominal apogee near 6.6 Earth Radii (RE). A likely off- equatorial inclination means GTOSat will sample the particle dynamics of the outer radiation belt beyond 6.6 RE, well beyond the Van Allen Probes, providing two radial profiles of the radiation belts every orbit (~11 hours). The GTOSat bus consists of a 6U structure designed for Planetary System Corporation's (PSC) 6U deployer. It is spin-stabilized with a Sun-pointing spin-axis and deployable solar arrays. Mitigation of radiation effects is accomplished through a multi-pronged systems approach consisting of spot shielding, parts selection, and a 'vault' that reduces the total dose for 1 year on orbit to less than 10 krad. The attitude determination and control system (ADCS) consists of a reaction wheel system with magneto-torquers for stability and momentum dumping, multiple fine and coarse sun sensors for pointing, and an inertial measurement unit. Communication is achieved via an S-band transceiver, enabling high data throughput through the Near-Earth Network (NEN) and real-time radiation belt monitoring via the Tracking and Data Relay Satellite System (TDRSS). Significant systems engineering analyses have been performed already, including 'Day in the Life' studies for thermal, communications, ACS, and power. In addition to the compelling science objective, which has never been attempted on a CubeSat, GTOSat will fly a new scalable radiation tolerant command and data handling (C&DH) and electrical power system (EPS) systems that could be used for future SmallSat missions, and pave the way for highly reliable, capable cubesat constellations and missions beyond low earth orbit (LEO). The NASA 2014 Science Plan notes that Heliophysics science relies on maintaining the Heliophysics System Observatory (HSO), and that this is difficult in the current constrained fiscal environment. By demonstrating that a cubesat can reliably obtain high quality scientific measurements in the Van Allen radiation belts, at a time after the Van Allen Probes will end, GTOSat serves as a timely HSO replacement spacecraft for the radiation belts, and also as a pathfinder for other reliable, low-cost, small inner magnetospheric spacecraft, in line with the NASA Science Plan and the Heliophysics Roadmap. GTOSat directly addresses the objectives of the Low-Cost Access to Space (LCAS) program by providing scientifically valuable measurements to the radiation belt community while advancing technologies to support future missions and scientific investigations and training early career scientists in instrument and mission development.",
+        "technologyMaturityStart": "4",
+        "technologyMaturityCurrent": "4",
+        "technologyMaturityEnd": "7",
+        "destinations": [
+            "The Sun"
+        ],
+        "responsibleProgram": "Heliophysics Technology and Instrument Development for Science",
+        "responsibleMissionDirectorateOrOffice": "Science Mission Directorate",
+        "leadOrganization": {
+            "name": "Goddard Space Flight Center",
+            "type": "NASA Center",
+            "acronym": "GSFC",
+            "city": "Greenbelt",
+            "state": "MD",
+            "country": "United States"
+        },
+        "workLocations": [
+            "California",
+            "Iowa",
+            "Maryland"
+        ],
+        "programDirectors": [
+            "Steven Clarke"
+        ],
+        "programManagers": [
+            "John Moses"
+        ],
+        "principalInvestigators": [
+            "Lauren Blum"
+        ],
+        "coInvestigators": [
+            "Allison Jaynes",
+            "Bonnie G Norris",
+            "Drew Turner",
+            "Shrikanth G Kanekal",
+            "Emil L Kepko"
+        ],
+        "libraryItems": [ ],
+        "supportingOrganizations": [
+            {
+                "name": "Aerospace Corporation",
+                "type": "Industry",
+                "acronym": null,
+                "city": "El Segundo",
+                "state": "CA",
+                "country": "United States"
+            },
+            {
+                "name": "University of Iowa",
+                "type": "Academic",
+                "acronym": null,
+                "city": "Iowa City",
+                "state": "IA",
+                "country": "United States"
+            }
+        ],
+        "primaryTas": [
+            {
+                "id": 10519,
+                "code": "TA8",
+                "title": "Science Instruments, Observatories, and Sensor Systems",
+                "priority": null
+            }
+        ],
+        "additionalTas": [ ]
+    },
+    "93539": {
+        "id": 93539,
+        "lastUpdated": "2019-06-06",
+        "title": "High-Strain Composite Deployable Radiators for CubeSats, Phase I",
+        "status": "Completed",
+        "startDate": "Jun 2017",
+        "endDate": "Dec 2017",
+        "description": "In response to NASA's need for compact, lightweight and efficient, low-cost deployable radiators for CubeSats, Roccor proposes to develop a high-strain laminate composite deployable radiator capable of dissipating over 50-watts of thermal energy. The proposed design leverages Roccor's experience in high-strain composite deployable structures and thermal management products for CubeSat and SmallSat applications. While solar arrays and instrument capabilities in CubeSat applications keep growing, the limited radiator surface results in a thermal bottleneck that limits the actual use of science or communication instruments. State-of-the-art deployable radiators use multiple rigid panels connected by a flexible hinge, replicating designs used in large space structures. However, the miniaturization of such designs have proven incapable of meeting the tight mass and volume constraints of CubeSat applications. Roccor proposes to utilize a novel packaging of large surface areas, made of highly conductive materials, and with enough strain energy to deploy passively in a radial arrangement.",
+        "benefits": "Roccor will maintain constant engagement with NASA centers in order to identify missions with thermal bottle necks, which could benefit from having additional power dissipation capabilities through extended surfaces. The primary target application is future NASA CubeSat and SmallSat spacecraft in which the surface area available for thermal dissipation has become the design bottleneck.<br /><br />Over the past year Roccor has been collaborating with Morehead State University on opportunities for integrating Roccor's thermal management products into MSU's 6U common bus for scientific missions. In addition, Roccor has been in contact with commercial CubeSat or SmallSat developers who are reaching the thermal design limits for the significant processing or power dissipation of the designs.",
+        "technologyMaturityStart": "2",
+        "technologyMaturityCurrent": "4",
+        "technologyMaturityEnd": "4",
+        "destinations": [
+            "Earth"
+        ],
+        "responsibleProgram": "SBIR/STTR",
+        "responsibleMissionDirectorateOrOffice": "Space Technology Mission Directorate",
+        "leadOrganization": {
+            "name": "Marshall Space Flight Center",
+            "type": "NASA Center",
+            "acronym": "MSFC",
+            "city": "Huntsville",
+            "state": "AL",
+            "country": "United States"
+        },
+        "workLocations": [
+            "Colorado"
+        ],
+        "programDirectors": [
+            "Jennifer L Gustetic"
+        ],
+        "programManagers": [
+            "Carlos Torrez"
+        ],
+        "libraryItems": [
+            {
+                "id": 42014,
+                "title": "Briefing Chart",
+                "type": "Document",
+                "description": "High-Strain Composite Deployable Radiators for CubeSats, Phase I Briefing Chart",
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 31795,
+                        "url": "https://techport.nasa.gov/file/31795",
+                        "size": 297918
+                    }
+                ]
+            },
+            {
+                "id": 40680,
+                "title": "Briefing Chart Image",
+                "type": "Image",
+                "description": "High-Strain Composite Deployable Radiators for CubeSats, Phase I Briefing Chart Image",
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 30457,
+                        "url": "https://techport.nasa.gov/file/30457",
+                        "size": 326895
+                    }
+                ]
+            }
+        ],
+        "closeoutDocuments": [
+            "https://techport.nasa.gov/file/37843"
+        ],
+        "supportingOrganizations": [
+            {
+                "name": "Roccor, LLC",
+                "type": "Industry",
+                "acronym": null,
+                "city": "Longmont",
+                "state": "CO",
+                "country": "United States"
+            }
+        ],
+        "primaryTas": [
+            {
+                "id": 10527,
+                "code": "TA14",
+                "title": "Thermal Management Systems",
+                "priority": null
+            },
+            {
+                "id": 8830,
+                "code": "TA14.2",
+                "title": "Thermal Control Systems",
+                "priority": null
+            },
+            {
+                "id": 8955,
+                "code": "TA14.2.3",
+                "title": "Heat Rejection and Energy Storage",
+                "priority": null
+            }
+        ],
+        "additionalTas": [ ]
+    },
+    "91951": {
+        "id": 91951,
+        "lastUpdated": "2018-10-10",
+        "title": "Miniaturized Imaging Spectrometer to Measure Vegetation Structure and Function - MiniSpec",
+        "status": "Completed",
+        "startDate": "Jan 2017",
+        "endDate": "Jun 2018",
+        "description": "Earth's vegetated ecosystems are a key factor for sustaining life on Earth. They provide food, fiber and habitat and operate as key components of the carbon, water and energy cycles. They also offer the benefit of functioning to removing CO2 from the atmosphere and converting it to stored biomass ( and oxygen) but are susceptible to changing climate. NASA has strong interest in detecting and predicting changes to Earth's ecosystems as described in their Strategic and Science plans. Vegetation productivity can be estimated by light use efficiency (LUE) models which take into account vegetation stress from lack of soil moisture, disease and insects etc.. Variable shadow fraction, however, limits the accuracy of this approach and currently used methods and concepts require complex sensors with multi-angle views to infer shadow fraction. The instrument concept proposed here is designed to provide the spectral radiance measurements needed for vegetation functioning and high definition vegetation structure diurnal sampling . The scientific measurements needed are visible, near infrared and shortwave infrared calibrated radiances for vegetation function, high definition, ~1 meter resolution panchromatic stereo images for vegetation structure. These measurements are to acquired at three times per day best suited to capture vegetation functional response to environmental conditions. requires a diurnal constellation to capture data at appropriate times during the daylight hours. The most robust and cost effective approach is to deploy six SmallSats on an EELV Secondary Payload (ESPA) ring. This requires that the spectrometer be miniaturized yet fully capable of delivering the spectral and spatial measurements. The proposal team will utilize free form optics enabling high spectral and spatial resolution on a very small bus. For the first time the complete picture of vegetation functioning will be acquired and type, amount and productivity of vegetation will be quantified. (a) Objectives and Benefits The goal of this work is to develop a viable instrument concept using innovative free-form optics suitable for diurnal ( i.e., day time multi-temporal) observations of vegetation type, structure and productivity to be deployed on a small satellite constellation. Objectives are: 1) develop and test an instrument concept that uses free form optics and other technologies to reduce size and mass of a hyperspectral spectrometer to acquire reflected solar radiation in the visible to shortwave region of the EM spectrum. 2) include in the instrument concept an optical system enhanced by advanced image processing that can acquire high resolution vegetation structure. 3) include in the instrument concept the requirement to produce instruments for diurnal sampling of spatial and spectral measurements using a modular instrument design and constellation of small satellites. (4) through this proposed project advance the TRL level of the present instrument concept from 2 to 4. (c) The period of performance will be January 1 2017 to June 30 2018, 18 months (d) The entry and planned exit Technology Readiness Level (TRL) are TRL2 to TRL4. The benefits of this proposed instrument is the first higher resolution diurnal measurements of vegetation functioning and tractable approach for reducing errors induced by scene shadows. The data can be used to assess vegetation type, health, carbon content in a variety of ecosystems. It is especially powerful in forested areas where varying shadow fraction limits the accuracy of current approaches. The results can used to monitor vegetation productivity seasonally and eventually long term to identify areas of anomalous productivity or impacts from climate change. The results can also be used to assist the use of global missions currently estimating spectral variables that can be related ecosystem productivity such as Photo Chemical Index (PRI), Solar Induced fluorescence etc. )",
+        "technologyMaturityStart": "2",
+        "technologyMaturityCurrent": "2",
+        "destinations": [
+            "Earth"
+        ],
+        "responsibleProgram": "Instrument Incubator",
+        "responsibleMissionDirectorateOrOffice": "Science Mission Directorate",
+        "leadOrganization": {
+            "name": "Goddard Space Flight Center",
+            "type": "NASA Center",
+            "acronym": "GSFC",
+            "city": "Greenbelt",
+            "state": "MD",
+            "country": "United States"
+        },
+        "workLocations": [
+            "Maryland"
+        ],
+        "programDirectors": [
+            "George Komar"
+        ],
+        "programManagers": [
+            "Parminder Ghuman"
+        ],
+        "principalInvestigators": [
+            "Jon Ranson"
+        ],
+        "coInvestigators": [
+            "Wojciech Czaja",
+            "Philip W Dabney",
+            "David T Leisawitz",
+            "Garrett J West",
+            "Manohar Mareboyana",
+            "Karl Huemmrich",
+            "Kurtis Thome",
+            "Jacqueline J Le Moigne-stewart",
+            "Patrick L Thompson",
+            "Joseph Howard",
+            "Melissa Edgerton",
+            "Guoqing Sun"
+        ],
+        "libraryItems": [ ],
+        "primaryTas": [
+            {
+                "id": 10519,
+                "code": "TA8",
+                "title": "Science Instruments, Observatories, and Sensor Systems",
+                "priority": null
+            },
+            {
+                "id": 8857,
+                "code": "TA8.1",
+                "title": "Remote Sensing Instruments and Sensors",
+                "priority": null
+            },
+            {
+                "id": 9096,
+                "code": "TA8.1.1",
+                "title": "Detectors and Focal Planes",
+                "priority": null
+            }
+        ],
+        "additionalTas": [ ]
+    },
+    "94598": {
+        "id": 94598,
+        "lastUpdated": "2019-06-06",
+        "title": "High Aspect Ratio Cylindrical Parabolic Antenna for Microsats, Phase I",
+        "status": "Completed",
+        "startDate": "Jul 2018",
+        "endDate": "Feb 2019",
+        "description": "The subtopic requests advanced deployable parabolic antennas with an effective aperture of 4m2 that operate at frequencies up to 36GHz.Tendeg will produce a flight antenna design to meet a NASA specific science mission.  Various feed systems will be explored including a beam scanning phased array feed along with multi-array feeds.The primary goal of this Phase I program will be to design and develop the primary reflector deployment mechanism and shape forming net.  This will include construction of a proof of concept prototype which will contain a deployment mechanism, parabolic shaped slit tube back support, bulkhead rear supports, reflector netting, and mesh net back structure.  This will demonstrate the ability for high packaging efficiencies for SmallSat and CubeSat buses. Benefits: The National Academies Decadal strategy for earth observation currently places high priority on earth observation capability across several areas of interest as part of the Surface Deformation and Change target.  Each observation mission has different operational frequency requirements which need to be met.  The missions span frequencies from L to Ka Band.  These missions can include canopy penetrating radar for Earth surface characterization up to atmospheric weather predicting radar missions.Non-NASA applications can be similar with regards to measuring and predicting weather phenomena.  The proposed antenna can also be used for synthetic aperture radar applications that allow weather penetrating radar to detect and track assets including land and ocean surface vehicles, aircraft and missiles.  This capability is enhanced by the ability to operate at dual frequencies providing high resolution tracking. ",
+        "technologyMaturityStart": "3",
+        "technologyMaturityCurrent": "4",
+        "technologyMaturityEnd": "4",
+        "responsibleProgram": "SBIR/STTR",
+        "responsibleMissionDirectorateOrOffice": "Space Technology Mission Directorate",
+        "leadOrganization": {
+            "name": "Jet Propulsion Laboratory",
+            "type": "NASA Center",
+            "acronym": "JPL",
+            "city": "Pasadena",
+            "state": "CA",
+            "country": "United States"
+        },
+        "workLocations": [
+            "Colorado"
+        ],
+        "programDirectors": [
+            "Jennifer L Gustetic"
+        ],
+        "programManagers": [
+            "Carlos Torrez"
+        ],
+        "principalInvestigators": [
+            "Gregg Freebury"
+        ],
+        "libraryItems": [
+            {
+                "id": 48565,
+                "title": "Briefing Chart",
+                "type": "Document",
+                "description": null,
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 35222,
+                        "url": "https://techport.nasa.gov/file/35222",
+                        "size": 108786
+                    }
+                ]
+            },
+            {
+                "id": 48200,
+                "title": "Project Image",
+                "type": "Image",
+                "description": null,
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 34857,
+                        "url": "https://techport.nasa.gov/file/34857",
+                        "size": 29249
+                    }
+                ]
+            }
+        ],
+        "closeoutDocuments": [
+            "https://techport.nasa.gov/file/37646"
+        ],
+        "supportingOrganizations": [
+            {
+                "name": "Tendeg LLC",
+                "type": "Industry",
+                "acronym": null,
+                "city": "Louisville",
+                "state": "CO",
+                "country": "United States"
+            }
+        ],
+        "primaryTas": [
+            {
+                "id": 10519,
+                "code": "TA8",
+                "title": "Science Instruments, Observatories, and Sensor Systems",
+                "priority": null
+            },
+            {
+                "id": 8856,
+                "code": "TA8.3",
+                "title": "In-Situ Instruments and Sensors",
+                "priority": null
+            }
+        ],
+        "additionalTas": [ ]
+    },
+    "90791": {
+        "id": 90791,
+        "lastUpdated": "2018-10-10",
+        "title": "An Innovative and Modular Approach for Deep Learning for Constellations of Smallsats",
+        "status": "Completed",
+        "startDate": "Oct 2016",
+        "endDate": "Sep 2018",
+        "description": "The primary research and development goal of this research is to enable the usage of advanced machine learning algorithms, particularly deep learning, on embedded hardware systems such as satellites. This work would allow for powerful classification engines to be run on modest hardware, and lead the way for constellations of small satellites to perform near real-time triage of interesting events on the ground.The primary long term objective of this project is have a machine learning framework that is geared towards being used on highly constrained hardware, and to show that framework being used in a simulated distributed spacecraft application. In the short term, the research will focus on one particular application of deep learning as a proof of concept. In order to do this, the first objective will be to curate a dataset that will be used as a training set for all permutations of the deep learning artificial neural network (ANN). The next objective will be to determine an optimal architecture for the ANN, and then to implement it in software for testing. Finally, once an optimal architecture is chosen, it will be mapped to hardware using energy efficient FPGAs.The secondary objective is to use the previously developed ANN to do scene classification on real data, such as the AVIRIS, MODIS, and Hyperion multispectral data sets. The ANN will be trained to look for interesting scenes in a vast amount of data, and can be configured a number of different ways in order to look for fires, floods, algal blooms, and other situations.&nbsp;The final milestone will be a full definition of a prototypical mission that can be used as an example of the proper use of the framework. This will include a generalization of the framework, which means that more cores will be added to accommodate a wider range of ANN architectures. Additionally, a mission will be described for using the framework to do near real-time detection of wildfires by analyzing multispectral data with the ANN developed in the previous milestone. This milestone is the final one for FY17 and will conclude in September.",
+        "benefits": "This technology, when developed, will allow for advanced processing to be done in orbit that is, currently only able to be done on high powered terrestial computers.",
+        "technologyMaturityStart": "1",
+        "technologyMaturityCurrent": "1",
+        "technologyMaturityEnd": "1",
+        "destinations": [
+            "Earth",
+            "Foundational Knowledge"
+        ],
+        "responsibleProgram": "Center Independent Research & Development: GSFC IRAD",
+        "responsibleMissionDirectorateOrOffice": "Mission Support Directorate",
+        "leadOrganization": {
+            "name": "Goddard Space Flight Center",
+            "type": "NASA Center",
+            "acronym": "GSFC",
+            "city": "Greenbelt",
+            "state": "MD",
+            "country": "United States"
+        },
+        "workLocations": [
+            "Maryland"
+        ],
+        "programManagers": [
+            "Peter M Hughes"
+        ],
+        "projectManagers": [
+            "Jacqueline J Le Moigne-stewart",
+            "Michael A Johnson"
+        ],
+        "principalInvestigators": [
+            "James P Mackinnon"
+        ],
+        "website": "http://aetd.gsfc.nasa.gov/",
+        "libraryItems": [
+            {
+                "id": 35343,
+                "title": "Deep Neural Networks",
+                "type": "Image",
+                "description": "Deep neural network",
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 26331,
+                        "url": "https://techport.nasa.gov/file/26331",
+                        "size": 170818
+                    }
+                ]
+            }
+        ],
+        "closeoutSummary": "",
+        "closeoutDocuments": [ ],
+        "primaryTas": [
+            {
+                "id": 10524,
+                "code": "TA4",
+                "title": "Robotics and Autonomous Systems",
+                "priority": null
+            },
+            {
+                "id": 8821,
+                "code": "TA4.1",
+                "title": "Sensing and Perception",
+                "priority": null
+            },
+            {
+                "id": 8918,
+                "code": "TA4.1.4",
+                "title": "Object, Event, and Activity Recognition",
+                "priority": null
+            }
+        ],
+        "additionalTas": [
+            {
+                "id": 10524,
+                "code": "TA4",
+                "title": "Robotics and Autonomous Systems",
+                "priority": null
+            },
+            {
+                "id": 8819,
+                "code": "TA4.5",
+                "title": "System-Level Autonomy",
+                "priority": null
+            },
+            {
+                "id": 8996,
+                "code": "TA4.5.8",
+                "title": "Automated Data Analysis for Decision Making",
+                "priority": null
+            }
+        ]
+    },
+    "93622": {
+        "id": 93622,
+        "lastUpdated": "2018-10-10",
+        "title": "MakerSat, Phase I",
+        "status": "Completed",
+        "startDate": "Jun 2017",
+        "endDate": "Dec 2017",
+        "description": "Small satellite platforms such as CubeSats and nanosats are providing opportunities for NASA, DoD, ad commercial ventures to perform missions at lower cost and improved return-on-investment. There is a growing desire to enable SmallSats to perform 'Long Baseline' and 'Spatially Diverse' observation, measurement and collection missions. Traditionally, these types of missions would be performed using formation flying or using large, costly satellites equipped with complex deployable structures. For many sensing modalities, fundamental physics demands large apertures or long baselines to achieve the high resolution, sensitivity, and throughput required for these missions. Reliance upon fixed and deployable aperture/mast technologies prevents small satellites from matching traditional large satellite platforms in terms of performance. The proposed 'MakerSat Demonstration Mission' effort will develop a third alternative that will enable small satellite platforms to perform his class of missions: 'Constructable' technologies, that use in-space manufacturing technologies to enable SmallSats to 'grow' significantly larger structures. A SmallSat that, once on orbit, can increase its size from one to two orders of magnitude provides a transformative option to formation flying or deployable structures. 'MakerSat' is a low-cost system intended to validate the Constructable SmallSat platform and enable nanosat-class systems to perform missions such as single-pass interferometric SAR, long-baseline radio astronomy, and infrared astronomy.uring the Phase I effort, TUI will develop the Requirements, ConOps and Architecture for the demonstration mission. During the Phase II effort, TUI will develop an EM unit suitable for demonstration and testing Trusselator mission technology. During the Phase III effort, TUI will integrate a FM version of the Trusselator demonstration technology into an appropriately sized SmallSat Bus and fly the MakerSat Demonstration Mission.",
+        "benefits": "While SmallSats have the benefit of small size and mass, making them generally easier and cheaper to launch, fundamental physics demands large apertures and large baselines to achieve high performance in many sensing modalities. The MakerSat technology will enable cost-effective small satellite platforms to conduct these high-performance missions, including long-baseline interferometric SAR, interferometric astronomy, and geolocation. The MakerSat demonstration will establish the flight heritage necessary for in-space manufacturing technologies to be adopted into the critical path for NASA's scientific and exploration missions.<br /><br />The MakerSat technology will enable commercial SAR ventures such as Capella Space to dramatically increase the performance of their SAR smallsats. It will enable DoD programs to use small satellite platforms to perform multi-ball interferometric geolocation of GPS jammers and bi-static radar systems for EO missions. The MakerSat demonstration will also establish flight heritage for the In-Space Manufacturing technology which is critical to the demonstration of the Trusselator on SSL's Dragonfly mission and the DARPA OrbWeaver program.",
+        "technologyMaturityStart": "3",
+        "technologyMaturityCurrent": "3",
+        "technologyMaturityEnd": "4",
+        "destinations": [
+            "Earth",
+            "Outside the Solar System"
+        ],
+        "responsibleProgram": "SBIR/STTR",
+        "responsibleMissionDirectorateOrOffice": "Space Technology Mission Directorate",
+        "leadOrganization": {
+            "name": "Ames Research Center",
+            "type": "NASA Center",
+            "acronym": "ARC",
+            "city": "Moffett Field",
+            "state": "CA",
+            "country": "United States"
+        },
+        "workLocations": [
+            "Washington"
+        ],
+        "programDirectors": [
+            "Jennifer L Gustetic"
+        ],
+        "programManagers": [
+            "Carlos Torrez"
+        ],
+        "principalInvestigators": [
+            "Blaine Levedahl"
+        ],
+        "libraryItems": [
+            {
+                "id": 42097,
+                "title": "Briefing Chart",
+                "type": "Document",
+                "description": "MakerSat, Phase I Briefing Chart",
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 31878,
+                        "url": "https://techport.nasa.gov/file/31878",
+                        "size": 1475524
+                    }
+                ]
+            },
+            {
+                "id": 40763,
+                "title": "Briefing Chart Image",
+                "type": "Image",
+                "description": "MakerSat, Phase I Briefing Chart Image",
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 30540,
+                        "url": "https://techport.nasa.gov/file/30540",
+                        "size": 1458606
+                    }
+                ]
+            }
+        ],
+        "supportingOrganizations": [
+            {
+                "name": "Tethers Unlimited",
+                "type": "Industry",
+                "acronym": null,
+                "city": "Bothell",
+                "state": "WA",
+                "country": "United States"
+            }
+        ],
+        "primaryTas": [
+            {
+                "id": 10523,
+                "code": "TA12",
+                "title": "Materials, Structures, Mechanical Systems and Manufacturing",
+                "priority": null
+            },
+            {
+                "id": 8872,
+                "code": "TA12.2",
+                "title": "Structures",
+                "priority": null
+            },
+            {
+                "id": 9175,
+                "code": "TA12.2.5",
+                "title": "Innovative, Multifunctional Concepts",
+                "priority": null
+            }
+        ],
+        "additionalTas": [ ]
+        
+    },
+    "94491": {
+        "id": 94491,
+        "lastUpdated": "2019-06-06",
+        "title": "A New Class of Miniaturized Lightweight Highly Efficient Solid State Cryogenic Cooler, Phase I",
+        "status": "Completed",
+        "startDate": "Jul 2018",
+        "endDate": "Feb 2019",
+        "description": "A new class of solid-state, high-performance cryogenic coolers is proposed for space-based applications. Traditionally, cryocoolers for such applications have been Stirling or pulse tube refrigerators. These cryocoolers, although effective, are heavy, bulky, inefficient, and may cause vibrations. A high-performance solid-state cryocooler based on thermomagnetic cooling via the Ettingshausen effect can be lighter, smaller, vibration free, and use less power than the alternatives. Historically, the practical development of the Ettingshausen coolers was discouraged as they required a magnetic field difficult to reach by traditional ferrite magnets. However, recent rare-earth permanent magnets can produce the required field reliably. We propose an Ettingshausen cooler consisting of advanced permanent magnets combined with a novel semiconductor heterostructure predicted to significantly enhance the efficiency of the solid-state cryogenic cooling in a compact size. The Phase I work will demonstrate the preliminary materials properties and the design required to achieve cooling power larger than 0.2‑0.3 W in 30-35 K temperatures ranges for the rejection temperature of 150 K, while consuming less than 5 W power. The grown heterostructure in phase I will be utilized for the manufacturing of a high-efficiency Ettingshausen thermomagnetic cryocooler in Phase II for specific applications in SmallSat or other micro platforms. ",
+        "benefits": "The III-V semiconductor-based thermomagnetic, solid state cryocooler will have wide ranging applications in both space and terrestrial systems. The cryocooler would immediately be applicable to many micro space platform systems, including SmallSat, where efficient, low power, and low vibration cryocooling is a necessity. <br /><br />The Ettingshausen cryocooler can replace the less efficient or bulky coolers currently used in civil and defense systems including but not limited to the sensing of gamma and x-rays, medical imaging and procedures, superconducting systems, fluidics, and preservation. It will be smaller, lighter, more efficient, and consumes less power than current alternatives, and features no dangerous or expensive cryogenic liquids or moving parts which could cause detrimental vibrations. ",
+        "technologyMaturityStart": "1",
+        "technologyMaturityCurrent": "3",
+        "technologyMaturityEnd": "3",
+        "responsibleProgram": "SBIR/STTR",
+        "responsibleMissionDirectorateOrOffice": "Space Technology Mission Directorate",
+        "leadOrganization": {
+            "name": "Jet Propulsion Laboratory",
+            "type": "NASA Center",
+            "acronym": "JPL",
+            "city": "Pasadena",
+            "state": "CA",
+            "country": "United States"
+        },
+        "workLocations": [
+            "Oklahoma"
+        ],
+        "programDirectors": [
+            "Jennifer L Gustetic"
+        ],
+        "programManagers": [
+            "Carlos Torrez"
+        ],
+        "principalInvestigators": [
+            "S. Ali Shojaee"
+        ],
+        "libraryItems": [
+            {
+                "id": 48458,
+                "title": "Briefing Chart",
+                "type": "Document",
+                "description": null,
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 35115,
+                        "url": "https://techport.nasa.gov/file/35115",
+                        "size": 370509
+                    }
+                ]
+            },
+            {
+                "id": 48093,
+                "title": "Project Image",
+                "type": "Image",
+                "description": null,
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 34750,
+                        "url": "https://techport.nasa.gov/file/34750",
+                        "size": 291812
+                    }
+                ]
+            }
+        ],
+        "supportingOrganizations": [
+            {
+                "name": "Amethyst Research Inc.",
+                "type": "Industry",
+                "acronym": null,
+                "city": "Ardmore",
+                "state": "OK",
+                "country": "United States"
+            }
+        ],
+        "primaryTas": [
+            {
+                "id": 10519,
+                "code": "TA8",
+                "title": "Science Instruments, Observatories, and Sensor Systems",
+                "priority": null
+            },
+            {
+                "id": 8856,
+                "code": "TA8.3",
+                "title": "In-Situ Instruments and Sensors",
+                "priority": null
+            }
+        ],
+        "additionalTas": [ ]
+        
+    },
+    
+    "93265": {
+        "id": 93265,
+        "lastUpdated": "2018-10-17",
+        "title": "Digital Array Gas filter Radiometer Passive Methane Sensing Instrument",
+        "acronym": "DAGR",
+        "status": "Completed",
+        "startDate": "Oct 2017",
+        "endDate": "Sep 2019",
+        "description": "As one of the driving greenhouse gases, methane&rsquo;s (CH<sub>4</sub>) presence in the atmosphere affects the Earth&#39;s temperature and climate system. It is emitted from a variety of anthropogenic (human-influenced) and natural sources, among them biomass burning, fossil fuel combustion, and biogenic sources (including wetlands and rice paddies).&nbsp;Methane is hard to track because it comes from many sources and is chemically oxidized in the troposphere by the hydroxyl radical. It also becomes well-mixed in the atmosphere by meteorological systems and diffusive process as it is transported across continents and oceans. Complicating matters even further is the 9-year methane atmospheric lifetime that allows it to accumulate in the atmosphere. Increasing methane not only affects tropospheric ozone pollution levels, but methane also absorbs in the infrared, making it 86 times more potent at trapping heat as CO<sub>2</sub> over a 20-year period.Recent studies (Saunois et al., 2016) suggest that concentrations of methane in the atmosphere are now rising at their fastest pace in two decades, thus raising the urgency of developing and flying space-based methane measuring instruments.The development of the proposed compact, <strong>D</strong>igital <strong>A</strong>rray <strong>G</strong>as filter <strong>R</strong>adiometer instrument (<strong>DAGR</strong>) will serve as the first step in establishing NASA as the leader in constellation-based, temporally nimble, space-based methane measurements. DAGR possesses a footprint and power requirement that readily enables its flight with the already in development NASA active LHR methane/methane isotope instrument on the same smallsat bus. DAGR is the first to exploit a new method of sensing greenhouse gas using passive sensor images of solar backscatter radiation. The approach is call the <strong>T</strong>errain and <strong>Z</strong>enith angle <strong>M</strong>odulation (<strong>TZM</strong>) method where the natural modulation of gas column is detected and quantified using an imaging <strong>G</strong>as <strong>F</strong>ilter <strong>C</strong>orrelation <strong>R</strong>adiometer (<strong>GFCR</strong>). This novel method, mitigating the ambient column difficulties of sensing surface gas concentrations, will be definitively validated by the proposed effort. If successful, it opens the door to a new (GATS Inc. patent pending) passive sensing technique that could revolutionize global methane observing systems.",
+        "benefits": "<strong>The DAGR effort will have two main&nbsp;benefits&nbsp;</strong> 1) a demonstration of&nbsp;the ability to produce a ratio image with the required image matching and S/N to perform the methaneTZM measurements and 2) a demonstration of&nbsp;the Terrain and Zenith Modulation (TZM) analysis method which uses the ratio image to detect and quantify the methane column modulation caused by variations in the scattering surface distance (ex terrain height) from the sensor. This will create an image analysis software that can efficiently extract the methane concentrations from the TZM signal in the ratio images, as well as identify any perturbations in the scene due to methane plumes.",
+        "technologyMaturityStart": "2",
+        "technologyMaturityCurrent": "3",
+        "technologyMaturityEnd": "4",
+        "destinations": [
+            "Earth"
+        ],
+        "supportedMissiontype": "Projected Mission (Pull)",
+        "responsibleProgram": "Center Independent Research & Development: GSFC IRAD",
+        "responsibleMissionDirectorateOrOffice": "Mission Support Directorate",
+        "leadOrganization": {
+            "name": "Goddard Space Flight Center",
+            "type": "NASA Center",
+            "acronym": "GSFC",
+            "city": "Greenbelt",
+            "state": "MD",
+            "country": "United States"
+        },
+        "workLocations": [
+            "Maryland"
+        ],
+        "programManagers": [
+            "Peter M Hughes"
+        ],
+        "projectManagers": [
+            "Matthew J Mcgill",
+            "William E Cutlip"
+        ],
+        "principalInvestigators": [
+            "Paul A Newman"
+        ],
+        "website": "",
+        "libraryItems": [
+            {
+                "id": 47461,
+                "title": "TZM_instrument",
+                "type": "Image",
+                "description": "TZM Instrument with two channels - gas and reference.",
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 34345,
+                        "url": "https://techport.nasa.gov/file/34345",
+                        "size": 234615
+                    }
+                ]
+            }
+        ],
+        "closeoutSummary": "",
+        "closeoutDocuments": [ ],
+        "primaryTas": [
+            {
+                "id": 10519,
+                "code": "TA8",
+                "title": "Science Instruments, Observatories, and Sensor Systems",
+                "priority": null
+            },
+            {
+                "id": 8857,
+                "code": "TA8.1",
+                "title": "Remote Sensing Instruments and Sensors",
+                "priority": null
+            },
+            {
+                "id": 9094,
+                "code": "TA8.1.3",
+                "title": "Optical Components",
+                "priority": null
+            }
+        ],
+        "additionalTas": [ ]
+    },
+    "33193": {
+        "id": 33193,
+        "lastUpdated": "2018-10-10",
+        "title": "Silicon Cold Plate for CubeSat/SmallSat Thermal Control, Phase I",
+        "status": "Completed",
+        "startDate": "Jun 2015",
+        "endDate": "Dec 2015",
+        "description": "The development of advanced small spacecraft with increased capability and performance requires new technologies and approaches to thermal management. Newer and more complex integrated electronics add to mission capability but also produce more waste heat. Traditional methods of metal heat pipes or structures have issues when scaling to accommodate higher thermal loads, especially in the vacuum and extreme conditions of space. Eotron has developed a 3D silicon front end to a fluid pump loop cooling system that offers improved performance in a compact light-weight form factor. The proposed Silicon Cold Plate makes direct contact with high thermal flux devices and removes waste heat through a series of fluid channels internal to the silicon. The Silicon Plate is bonded to the system PCB at thermal Via points to remove additional heat and provide electrical and system connection to other electronic components. Fluid, moving through silicon's internal channels is then moved to another area for thermal radiation by a system pump. In this proposal, the company outlines its plans to design, fabricate and test a prototype to prove its capability to remove a typical high thermal load from a compact system along with basic reliability testing on the fluid system. Silicon's advantages of light-weight, high thermal conductivity and non-reactive nature to liquids make it ideal for this application.",
+        "benefits": "Potential NASA Commercial Applications (?) In addition to CubeSat/SmallSat applications, this technology is suitable for removal of waste heat in advanced electronic systems where high system performance is required in a compact format or where environmental conditions prohibit the use of larger conventional thermal management systems. As an example, concentrated photovoltaic systems, or airborne systems such as UAVs or other autonomous vehicles and robots. This technology also has the potential to eliminate the need the for expensive and bulky integrated circuit packaging like column grid arrays, while at the same time providing superior thermal management performance.<br /><br />Potential Non-NASA Commercial Applications (How much do we want to say?) GPU/CPU cooling in 1U/2U configurations, Automotive systems, Robotic systems. We already supply a similar system to high power laser systems",
+        "technologyMaturityStart": "4",
+        "technologyMaturityCurrent": "4",
+        "technologyMaturityEnd": "4",
+        "responsibleProgram": "SBIR/STTR",
+        "responsibleMissionDirectorateOrOffice": "Space Technology Mission Directorate",
+        "leadOrganization": {
+            "name": "Langley Research Center",
+            "type": "NASA Center",
+            "acronym": "LaRC",
+            "city": "Hampton",
+            "state": "VA",
+            "country": "United States"
+        },
+        "workLocations": [
+            "California"
+        ],
+        "programDirectors": [
+            "Jennifer L Gustetic"
+        ],
+        "programManagers": [
+            "Carlos Torrez"
+        ],
+        "principalInvestigators": [
+            "Gerald H Kim"
+        ],
+        "libraryItems": [
+            {
+                "id": 41093,
+                "title": "Briefing Chart",
+                "type": "Document",
+                "description": "Silicon Cold Plate for CubeSat/SmallSat Thermal Control, Phase I Briefing Chart",
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 30873,
+                        "url": "https://techport.nasa.gov/file/30873",
+                        "size": 207555
+                    },
+                    {
+                        "id": 30874,
+                        "url": "https://techport.nasa.gov/file/30874",
+                        "size": 125645
+                    }
+                ]
+            },
+            {
+                "id": 26407,
+                "title": "Briefing Chart",
+                "type": "Image",
+                "description": "Silicon Cold Plate for CubeSat/SmallSat Thermal Control Briefing Chart",
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 17769,
+                        "url": "https://techport.nasa.gov/file/17769",
+                        "size": 236211
+                    }
+                ]
+            },
+            {
+                "id": 39759,
+                "title": "Briefing Chart Image",
+                "type": "Image",
+                "description": "Silicon Cold Plate for CubeSat/SmallSat Thermal Control, Phase I Briefing Chart Image",
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 30079,
+                        "url": "https://techport.nasa.gov/file/30079",
+                        "size": 109068
+                    },
+                    {
+                        "id": 30078,
+                        "url": "https://techport.nasa.gov/file/30078",
+                        "size": 236211
+                    }
+                ]
+            }
+        ],
+        "closeoutDocuments": [
+            "https://techport.nasa.gov/file/20410"
+        ],
+        "primaryTas": [
+            {
+                "id": 10527,
+                "code": "TA14",
+                "title": "Thermal Management Systems",
+                "priority": null
+            },
+            {
+                "id": 8830,
+                "code": "TA14.2",
+                "title": "Thermal Control Systems",
+                "priority": null
+            },
+            {
+                "id": 8955,
+                "code": "TA14.2.3",
+                "title": "Heat Rejection and Energy Storage",
+                "priority": null
+            }
+        ],
+        "additionalTas": [
+            {
+                "id": 10527,
+                "code": "TA14",
+                "title": "Thermal Management Systems",
+                "priority": null
+            },
+            {
+                "id": 8830,
+                "code": "TA14.2",
+                "title": "Thermal Control Systems",
+                "priority": null
+            },
+            {
+                "id": 8953,
+                "code": "TA14.2.2",
+                "title": "Heat Transport",
+                "priority": null
+            }
+        ],
+        "supportingOrganizations": [
+            {
+                "name": "Eotron, LLC",
+                "type": "Industry",
+                "acronym": null,
+                "city": "Oceanside",
+                "state": "CA",
+                "country": "United States"
+            }
+        ]
+    },
+    "89663": {
+        "id": 89663,
+        "lastUpdated": "2019-06-06",
+        "title": "Lightweight Flexible Thermal Energy Management Panels for CubeSats, Phase I",
+        "status": "Completed",
+        "startDate": "Jun 2016",
+        "endDate": "Dec 2016",
+        "description": "In response to significant gaps in advanced thermal control systems onboard CubeSats and SmallSats, and building off of the successful development of space-based FlexCoolTM two-phase thermal straps for CubeSats by its affiliated company i2C Solutions, Roccor proposes to develop a comprehensive thermal management component by adding a phase change material (PCM) thermal energy storage (TES) layer to the thin, flexible, high conductivity FlexCool thermal strap technology. The resulting Flexible Thermal Energy Management, (FlexTherm) product is a single thin flexible component that integrates easily into CubeSat geometries, operates reliably in vacuum, and efficiently serves thermal acquisition, transport, rejection and thermal energy storage functions with a minimum size and volume. To that end, the main objective of the proposed Phase I program is to demonstrate the technical feasibility of integrating PCMs with FlexCool, a thin, flat, flexible heat pipe technology whose feasibility was previously demonstrated for operation in the space environment. The PCM layer will include paraffin waxes as the matrix material inside a metal casing with an internal metal woven mesh. The internal mesh acts as a mechanical load bearing layer, as well as thermal conductivity enhancement material to spread heat into the TES materia",
+        "benefits": "The primary NASA target application for the proposed space-rated PCM panel technology is future NASA CubeSat and SmallSat spacecraft for which thermal control of on-board electronics is a major bottleneck in the system design. In particular, the proposed technology will enable efficient thermal control by maintaining a constant temperature heat sink or heat source for a range of electronic components in rapidly changing thermal environments. The PCM panel is being designed as a lightweight and flexible component, yet having high thermal capacity, requiring less mass and volume than currently used carbon-fiber and aluminum honeycomb composite panels.<br /><br />Industry estimates of the small satellite market forecast a significant growth in the segment of nano-micro satellites (i.e., between 1 through 50 kg of weight) during the next few years. Roccor?s FlexTherm products will be developed with the goal of being off-the-shelf components, available for the growing market of small and CubeSats, beyond NASA missions.",
+        "technologyMaturityStart": "2",
+        "technologyMaturityCurrent": "4",
+        "technologyMaturityEnd": "4",
+        "responsibleProgram": "SBIR/STTR",
+        "responsibleMissionDirectorateOrOffice": "Space Technology Mission Directorate",
+        "leadOrganization": {
+            "name": "Marshall Space Flight Center",
+            "type": "NASA Center",
+            "acronym": "MSFC",
+            "city": "Huntsville",
+            "state": "AL",
+            "country": "United States"
+        },
+        "workLocations": [
+            "Colorado"
+        ],
+        "programDirectors": [
+            "Jennifer L Gustetic"
+        ],
+        "programManagers": [
+            "Carlos Torrez"
+        ],
+        "libraryItems": [
+            {
+                "id": 41361,
+                "title": "Briefing Chart",
+                "type": "Document",
+                "description": "Lightweight Flexible Thermal Energy Management Panels for CubeSats, Phase I Briefing Chart",
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 31142,
+                        "url": "https://techport.nasa.gov/file/31142",
+                        "size": 99166
+                    }
+                ]
+            },
+            {
+                "id": 30587,
+                "title": "Briefing Chart Image",
+                "type": "Image",
+                "description": "Lightweight Flexible Thermal Energy Management Panels for CubeSats, Phase I",
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 22296,
+                        "url": "https://techport.nasa.gov/file/22296",
+                        "size": 82561
+                    }
+                ]
+            }
+        ],
+        "closeoutDocuments": [
+            "https://techport.nasa.gov/file/29759"
+        ],
+        "supportingOrganizations": [
+            {
+                "name": "Roccor, LLC",
+                "type": "Industry",
+                "acronym": null,
+                "city": "Longmont",
+                "state": "CO",
+                "country": "United States"
+            }
+        ],
+        "primaryTas": [
+            {
+                "id": 10527,
+                "code": "TA14",
+                "title": "Thermal Management Systems",
+                "priority": null
+            },
+            {
+                "id": 8830,
+                "code": "TA14.2",
+                "title": "Thermal Control Systems",
+                "priority": null
+            },
+            {
+                "id": 8955,
+                "code": "TA14.2.3",
+                "title": "Heat Rejection and Energy Storage",
+                "priority": null
+            }
+        ],
+        "additionalTas": [ ]
+    },
+    "91931": {
+        "id": 91931,
+        "lastUpdated": "2018-10-10",
+        "title": "Multi Application Smallsat Tri-band Radar",
+        "status": "Completed",
+        "startDate": "Apr 2017",
+        "endDate": "Mar 2020",
+        "description": "MASTR (the Multi-Application Smallsat Tri-band Radar) is a SmallSat instrument concept capable of electronic scanning, Doppler velocity measurement, and polarimetry at Ku/Ka/W-band frequencies. These capabilities allow MASTR to work as a cloud and precipitation radar, an altimeter (targeting sea ice height and snow depth) or as a scatterometer (in a spinning platform configuration). Consequently, MASTR has the potential to support several of NASA’s Earth science programs including Cloud and Radiation, Precipitation Measurement, Cryospheric Sciences, Climate Variability and Change, and Physical Oceanography. We propose to demonstrate AirMASTR, an airborne prototype of MASTR. The architecture uses Active Linear Array Feeds (ALAFs) made out of tiles to feed a parabolic-cylindrical reflector in the RF front end. The back end uses a baseband digital system with direct up/down conversion for a simplified instrument architecture. A modular design allows MASTR to grow in size without the need for significant redesign. MASTR was conceived to enable significantly smaller instruments that meet several science needs using a modularized architecture that is flexible and can adapt to multiple measurement objectives. The proposed work will be divided into the following major tasks: 1) Design and Manufacture the Scanning Array Tiles (SATs) at Ku and Ka band; 2) Integrate the SATs to form the Active Linear Array Feeds (ALAF’s) that will include the new Ku and Ka band feeds with the existing W-band feed; 3) Develop the digital system and the frequency converters; 4) Integrate and Test AirMASTR with a 30x50 cm reflector; and 5) Complete a set of engineering flights aboard NASA’s DC-8 aircraft. The entry TRL for AirMASTR will be 3, while the exit TRL will be 7 upon completion of the engineering flights. At that point MASTR can be considered to have TRL 5.",
+        "technologyMaturityStart": "3",
+        "technologyMaturityCurrent": "3",
+        "destinations": [
+            "Earth"
+        ],
+        "responsibleProgram": "Instrument Incubator",
+        "responsibleMissionDirectorateOrOffice": "Science Mission Directorate",
+        "leadOrganization": {
+            "name": "Jet Propulsion Laboratory",
+            "type": "NASA Center",
+            "acronym": "JPL",
+            "city": "Pasadena",
+            "state": "CA",
+            "country": "United States"
+        },
+        "workLocations": [
+            "California",
+            "North Carolina",
+            "Utah",
+            "Virginia"
+        ],
+        "programDirectors": [
+            "George Komar"
+        ],
+        "programManagers": [
+            "Parminder Ghuman"
+        ],
+        "principalInvestigators": [
+            "Mauricio Sanchez-barbetty"
+        ],
+        "coInvestigators": [
+            "Kenneth Vanhille",
+            "Benjamin Cannon",
+            "Eva Peral",
+            "Gerald Mace",
+            "Simone Tanelli",
+            "Gregory Sadowy",
+            "Andrew Brown",
+            "Ziad S Haddad",
+            "Ernesto Rodriguez",
+            "Karen R Piggee"
+        ],
+        "libraryItems": [ ],
+        "primaryTas": [
+            {
+                "id": 10519,
+                "code": "TA8",
+                "title": "Science Instruments, Observatories, and Sensor Systems",
+                "priority": null
+            },
+            {
+                "id": 8857,
+                "code": "TA8.1",
+                "title": "Remote Sensing Instruments and Sensors",
+                "priority": null
+            },
+            {
+                "id": 9096,
+                "code": "TA8.1.1",
+                "title": "Detectors and Focal Planes",
+                "priority": null
+            }
+        ],
+        "additionalTas": [ ]
+    },
+    "94669": {
+        "id": 94669,
+        "lastUpdated": "2019-06-06",
+        "title": "MagTag Modular Interfaces for Palletized Subsystems and Satellites, Phase I",
+        "status": "Completed",
+        "startDate": "Jul 2018",
+        "endDate": "Feb 2019",
+        "description": "MagTags™ are a modular interface solution utilizing solid state switchable magnets and ferrous target materials to create a secure electrical or low-pressure fluid connection between modules and spacecraft with no moving parts. This switchable electropermanent magnet (EPM) requires no holding power, providing benefits over both standard permanent magnets and electromagnets. The proposed innovation allows for simplified repair and upgrade of NASA and commercial on orbit long duration assets by using MagTag-equipped plug-and-play modules such as batteries or reaction wheel systems. As currently envisioned MagTags fit within a 60mm x 60mm x 25mm volume making them compatible for use on cubesats and smallsats.During the proposed Phase I effort, Altius will develop requirements for the MagTag, review the requirements and the resulting MagTag conceptual design at a workshop at the Small Satellite Conference, and then using feedback from that workshop, Altius will design, build, and test several brassboard prototypes of the MagTag Electrical interface, raising the system from a TRL 2 to a TRL 5. In Phase II Altius proposes doing detailed flight design, analysis, and space environment qualification testing of the MagTags, working with a satellite component provider to develop at least one representative MagTag-equipped module, and developing a preliminary design and prototype of a pallet for carrying multiple MagTag-equipped modules on Altius's BullDog™ satellite servicing vehicle. This will raise the MagTag TRL to 6 by the end of Phase II, with the potential to reach TRL 9 via flight demonstration subsequently.",
+        "benefits": "NASA Applications include:Power/Data modular interfaces for servicing (expansion, repairs, or upgrades) future NASA satellites and space facilities.Internal and external power/data interfaces for payloads and robot mounting for space facilities like the proposed LOP-G.The main potential non-NASA applications for MagTags are:Modular interfaces for expansion, repair, or upgrade of cubesats, microsats, larger spacecraft, and  persistent space platforms and other in-space assembled structures.Internal and external power/data interfaces for payloads and robot mounting for future commercial space facilities.",
+        "technologyMaturityStart": "2",
+        "technologyMaturityCurrent": "5",
+        "technologyMaturityEnd": "5",
+        "responsibleProgram": "SBIR/STTR",
+        "responsibleMissionDirectorateOrOffice": "Space Technology Mission Directorate",
+        "leadOrganization": {
+            "name": "Langley Research Center",
+            "type": "NASA Center",
+            "acronym": "LaRC",
+            "city": "Hampton",
+            "state": "VA",
+            "country": "United States"
+        },
+        "workLocations": [
+            "Colorado"
+        ],
+        "programDirectors": [
+            "Jennifer L Gustetic"
+        ],
+        "programManagers": [
+            "Carlos Torrez"
+        ],
+        "principalInvestigators": [
+            "Joshua Nelson"
+        ],
+        "libraryItems": [
+            {
+                "id": 48636,
+                "title": "Briefing Chart",
+                "type": "Document",
+                "description": null,
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 35293,
+                        "url": "https://techport.nasa.gov/file/35293",
+                        "size": 296039
+                    }
+                ]
+            },
+            {
+                "id": 48271,
+                "title": "Project Image",
+                "type": "Image",
+                "description": null,
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 34928,
+                        "url": "https://techport.nasa.gov/file/34928",
+                        "size": 206294
+                    }
+                ]
+            }
+        ],
+        "closeoutDocuments": [
+            "https://techport.nasa.gov/file/37793"
+        ],
+        "primaryTas": [
+            {
+                "id": 10523,
+                "code": "TA12",
+                "title": "Materials, Structures, Mechanical Systems and Manufacturing",
+                "priority": null
+            },
+            {
+                "id": 8871,
+                "code": "TA12.3",
+                "title": "Mechanical Systems",
+                "priority": null
+            }
+        ],
+        "additionalTas": [ ],
+        "supportingOrganizations": [
+            {
+                "name": "Altius Space Machines, Inc.",
+                "type": "Industry",
+                "acronym": null,
+                "city": "Broomfield",
+                "state": "CO",
+                "country": "United States"
+            }
+        ]
+        
+    },
+    
+    "40648": {
+        "id": 40648,
+        "lastUpdated": "2020-01-08",
+        "title": "Low Cost High Data Rate Portable Ground Station",
+        "status": "Completed",
+        "startDate": "Oct 2015",
+        "endDate": "Sep 2016",
+        "description": "The Low Cost High Data Rate Portable Ground Station project will develop the basis of a low cost, portable, remotely configurable ground station to receive high rate data from high-altitude scientific balloon missions, with extensibility to smallsat and cubesat platforms, by leveraging existing hardware and software.<p/>The Low Cost High Data Rate Portable Ground Station will be based on an existing X/Y gimbal antenna pedestal that is used to track the Tracking and Data Relay Satellite System (TDRSS) on-board high altitude Long and Ultra Long Duration Balloon (LDB and ULDB) missions. The pedestal is capable of full hemispherical coverage and is coupled with an attitude determining GPS system and a microcontroller to actively point the attached 18'' circularly polarized array antenna to an available TDRS. To realize a low cost high data rate ground station, the existing X/Y gimbal and antenna pedestal will be modified to support array antennas up to a few meters in diameter to achieve higher gain while the control software will be modified to actively and accurately track a high altitude balloon. Link margins will be developed to determine the optimal link architecture between the balloon and the ground station and a ground antenna will be selected for further charaterization testing. In addition, an architecture will be developed for the supporting ground station equipment that will be required to fully implement the concept of a portable ground station.",
+        "benefits": "N/A",
+        "technologyMaturityStart": "2",
+        "technologyMaturityCurrent": "2",
+        "technologyMaturityEnd": "5",
+        "responsibleProgram": "Center Independent Research & Development: GSFC IRAD",
+        "responsibleMissionDirectorateOrOffice": "Mission Support Directorate",
+        "leadOrganization": {
+            "name": "Wallops Flight Facility",
+            "type": "NASA Facility",
+            "acronym": "WFF",
+            "city": "Wallops Island",
+            "state": "VA",
+            "country": "United States"
+        },
+        "workLocations": [
+            "Virginia"
+        ],
+        "programManagers": [
+            "Peter M Hughes"
+        ],
+        "projectManagers": [
+            "Wesley A Powell",
+            "Daniel A Mullinix"
+        ],
+        "principalInvestigators": [
+            "Brian S Abresch"
+        ],
+        "coInvestigators": [
+            "Marta B Shelton",
+            "Amy L Davis",
+            "Samuel Thompson",
+            "Kenneth E Hall",
+            "Abel Duer",
+            "Negeen Saghafi"
+        ],
+        "website": "http://aetd.gsfc.nasa.gov/",
+        "libraryItems": [
+            {
+                "id": 27742,
+                "title": "Low Cost High Data Rate Portable Ground Station",
+                "type": "Image",
+                "description": "Low Cost High Data Rate Portable Ground Station",
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 19079,
+                        "url": "https://techport.nasa.gov/file/19079",
+                        "size": 31824
+                    }
+                ]
+            }
+        ],
+        "primaryTas": [
+            {
+                "id": 10530,
+                "code": "TA5",
+                "title": "Communications, Navigation, and Orbital Debris Tracking and Characterization Systems",
+                "priority": null
+            }
+        ],
+        "additionalTas": [
+            {
+                "id": 10522,
+                "code": "TA13",
+                "title": "Ground and Launch Systems",
+                "priority": null
+            }
+        ]
+        
+    },
+    
+    "94570": {
+        "id": 94570,
+        "lastUpdated": "2019-06-06",
+        "title": "Elastic-Memory Composite Antenna Booms for SmallSats, Phase I",
+        "status": "Completed",
+        "startDate": "Jul 2018",
+        "endDate": "Feb 2019",
+        "description": "Composite Technology Development, Inc. (CTD) seeks to advance the state of art with a novel deployable low-frequency antenna technology for SmallSats comprised of elastic memory composite antenna booms and deployer mechanisms.  These booms incorporate a shape memory polymer matrix into a fiber-reinforced composite substrate with an outer metallization layer for RF performance.   The elastic memory composite technology enables these antenna elements to be heated, rolled, and cooled to lock them into a stowed shape.  They can be deployed smoothly with heat without inducing shock and without the need of for actuators or deployment motors.  The long-length, low-frequency antenna elements can be packaged into exceedingly small stowed volumes, with simplified mechanisms, lower parts count, and lower mass than current state of the art boom and deployer systems. The primary technical objectives of the proposed effort are as follows:Develop a series of system requirements for the development effort. Demonstrate feasibility of the elastic memory composite antenna boom concept through a comprehensive design, analysis, and prototyping effort. Design and build a prototype metalized elastic memory composite antenna boom. Design and build a prototype elastic memory composite boom deployer. Perform deployment testing of a breadboard prototype at the end of Phase I",
+        "benefits": "The proposed technology advances state of the art deployable low-frequency antenna technologies for CubeSats or SmallSats.  Applications include radar sounding booms such as those used on prior misisons including MARSIS and future missions such as Europa Clipper.  Currently, NASA requires increased capability in CubeSats to meet demands for lower-cost, multi-point observations throughout space leveraging lower cost SmallSats and CubeSats. The proposed technology is applicable to a wide-range of SmallSat deployable systems for the growing non-NASA market.  For example, SmallSats are being utilized by the National Science Foundation, Air Force, and commercial entities such as One-Web.  Additionally, the National Reconnaissance Office has purchased many CubeSats under its Colony One and Colony Two programs. ",
+        "technologyMaturityStart": "2",
+        "technologyMaturityCurrent": "4",
+        "technologyMaturityEnd": "4",
+        "responsibleProgram": "SBIR/STTR",
+        "responsibleMissionDirectorateOrOffice": "Space Technology Mission Directorate",
+        "leadOrganization": {
+            "name": "Jet Propulsion Laboratory",
+            "type": "NASA Center",
+            "acronym": "JPL",
+            "city": "Pasadena",
+            "state": "CA",
+            "country": "United States"
+        },
+        "workLocations": [
+            "Colorado"
+        ],
+        "programDirectors": [
+            "Jennifer L Gustetic"
+        ],
+        "programManagers": [
+            "Carlos Torrez"
+        ],
+        "principalInvestigators": [
+            "Alexi Rakow"
+        ],
+        "libraryItems": [
+            {
+                "id": 48537,
+                "title": "Briefing Chart",
+                "type": "Document",
+                "description": null,
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 35194,
+                        "url": "https://techport.nasa.gov/file/35194",
+                        "size": 108211
+                    }
+                ]
+            },
+            {
+                "id": 48172,
+                "title": "Project Image",
+                "type": "Image",
+                "description": null,
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 34829,
+                        "url": "https://techport.nasa.gov/file/34829",
+                        "size": 25992
+                    }
+                ]
+            }
+        ],
+        "closeoutDocuments": [
+            "https://techport.nasa.gov/file/37802"
+        ],
+        "primaryTas": [
+            {
+                "id": 10519,
+                "code": "TA8",
+                "title": "Science Instruments, Observatories, and Sensor Systems",
+                "priority": null
+            },
+            {
+                "id": 8857,
+                "code": "TA8.1",
+                "title": "Remote Sensing Instruments and Sensors",
+                "priority": null
+            }
+        ],
+        "additionalTas": [ ],
+        "supportingOrganizations": [
+            {
+                "name": "Composite Technology Development, Inc.",
+                "type": "Industry",
+                "acronym": null,
+                "city": "Lafayette",
+                "state": "CO",
+                "country": "United States"
+            }
+        ]
+    },
+    "92236": {
+        "id": 92236,
+        "lastUpdated": "2018-10-10",
+        "title": "New Techniques for Fast Neutron Imaging and Spectroscopy",
+        "status": "Completed",
+        "startDate": "Feb 2017",
+        "endDate": "Jan 2020",
+        "description": "Introduction: The detection of fast neutrons has important applications in a variety of fields including geospace, solar, and planetary physics. Though neutrons are ubiquitous products of nuclear interactions, they are challenging to detect and often suffer from large backgrounds. High-energy neutrons (&gt; 50 MeV) pose even more challenges since the traditional double scatter technique based on a time-of-flight (ToF) is limited by the finite flight path and active detector sizes required by small satellite platforms. At these high energies, the proton recoil is likely to leave the detector volume, degrading the energy and angular resolution. Typically, double-scatter instruments are composed of two or more segmented scintillators. Scintillator-based technologies have a proven record for detecting and measuring fast neutrons. They have high stopping power, good energy resolution, and fast timing properties. Dramatically increasing the segmentation of scintillator arrays (down to hundreds of sub-micron fibers) enables the use of proton-tracking, effectively supplanting the ToF measurement, thereby eliminating the need for widely separated detectors. This greatly increases the detection efficiency. Modern readout devices such as multi-anode micro-channel plate/photomultipliers (MCP-PMTs) and silicon photomultipliers (SiPMs) offer an ideal alternative to photomultiplier tubes given their inherently compact size, fast response, and relatively low operating voltages. An instrument based on scintillating-fiber bundles would provide high-resolution imaging of fast neutrons at energies where the bulk of solar and magnetospheric neutrons resides. Methodology: The neutron/&gamma;-ray spectrometer proposed is designed to measure &gt;10 MeV neutrons and relies on the measurement of the momentum vector of the recoil proton associated with two interactions within a single scattering volume, e.g., the highly segmented fiber bundle. From a measure of the recoil momentum in two successive scatters, the energy and direction of the incident neutron can be reconstructed. Imaging neutron spectrometers have the distinct advantage of being able to reject the high background in space, further improving the signal-to-noise ratio. The instrument concept to be developed consists of orthogonally stacked scintillating fibers read out by new high-resolution MCP-PMTs. High-resolution MCP-PMTs, with &lt;1 ns rise times, can be produced down to several hundred-&micro;m resolution, offering for the first time, a viable option for neutron spectroscopy and imaging based on charged particle tracking. An MCP-PMT-based neutron imaging spectrometer is a significant improvement over earlier proton-tracking based technologies (Ryan et al. 1999; Miller et al. 2005; Legere et al. 2006; Muraki et al. 2012; 2013). The MCP-PMT can be read out in anode strips rather than in individual anodes significantly reducing the number of channels to process. Gamma-rays are distinguished from neutrons by the density along the electron ionization track and the track length. The proposed work will span three years. We will design and test a proof-of-concept instrument based on off-the-shelf 1.6 mm pitch MCP-PMTs from Photonis coupled to a fiber bundle (6&times;6&times;6 cm3) with orthogonal planes of 300-&mu;m fibers. We will develop the readout for individual anode and strip anode configurations, explore new, low-power ASICs for pulse height and time-to-digital conversion, and test in the laboratory and accelerator environments. Relevance: The technology development proposed addresses NASA&rsquo;s Heliophysics strategic objective in the SMD Science Plan &quot;to understand the Sun and its interactions with the Earth and the solar system, including space weather.&rdquo; In addition, investigations of solar/magnetospheric neutrons on SmallSats would complement the current and upcoming missions of Van Allen Probes, Solar Probe Plus, Solar Orbiter, and IMAP.",
+        "benefits": "Support NASA&rsquo;s strategic objectives to understand the Sun and its interactions with Earth and the solar system, including space weather. This will be achieved by developing/demonstrating instrumentation technology necessary to address the following science goals:<ul><li>Explore the physical processes in the space environment from the Sun to the Earth and throughout the solar system;</li><li>Advance our understanding of the connections that link the Sun, the Earth, planetary space environments, and the outer reaches of our solar system;</li><li>Develop the knowledge and capability to detect and predict extreme conditions in space to protect life and society and to safeguard human and robotic explorers beyond Earth.</li></ul>",
+        "technologyMaturityStart": "3",
+        "technologyMaturityCurrent": "3",
+        "technologyMaturityEnd": "5",
+        "destinations": [
+            "The Sun"
+        ],
+        "responsibleProgram": "Heliophysics Technology and Instrument Development for Science",
+        "responsibleMissionDirectorateOrOffice": "Science Mission Directorate",
+        "leadOrganization": {
+            "name": "Goddard Space Flight Center",
+            "type": "NASA Center",
+            "acronym": "GSFC",
+            "city": "Greenbelt",
+            "state": "MD",
+            "country": "United States"
+        },
+        "workLocations": [
+            "Maryland",
+            "New Hampshire"
+        ],
+        "programDirectors": [
+            "Steven Clarke"
+        ],
+        "programManagers": [
+            "John Moses"
+        ],
+        "principalInvestigators": [
+            "Georgia A De Nolfo"
+        ],
+        "coInvestigators": [
+            "Peter F Bloser",
+            "David T Leisawitz",
+            "Mark Mcconnell",
+            "James M Ryan"
+        ],
+        "website": "",
+        "libraryItems": [ ],
+        "closeoutSummary": "",
+        "closeoutDocuments": [ ],
+        "primaryTas": [
+            {
+                "id": 10519,
+                "code": "TA8",
+                "title": "Science Instruments, Observatories, and Sensor Systems",
+                "priority": null
+            },
+            {
+                "id": 8856,
+                "code": "TA8.3",
+                "title": "In-Situ Instruments and Sensors",
+                "priority": null
+            },
+            {
+                "id": 9103,
+                "code": "TA8.3.1",
+                "title": "Field and Particle Detectors",
+                "priority": null
+            }
+        ],
+        "additionalTas": [ ]
+    },
+    "34028": {
+        "id": 34028,
+        "lastUpdated": "2018-10-10",
+        "title": "Flexible 2-Phase Thermal Strap for Small Sats, Phase I",
+        "status": "Completed",
+        "startDate": "Jun 2015",
+        "endDate": "Dec 2015",
+        "description": "A rapidly growing class of spacecraft are CubeSats and SmallSats. Current NASA missions indicate an equally rapid growth of technological capabilities to support these small spacecraft. However, large deployable solar arrays and closely packed electronic suites are giving rise to an increasing demand for thermal management technologies in CubeSats and SmallSats. NASA is currently seeking more sophisticated thermal control technologies for this class of spacecraft, thus enabling revolutionary capabilities within small satellites. In response to the need for advanced heat transfer components for improved thermal management onboard CubeSats and SmallSats, i2C Solutions proposes to develop space-rated flexible 2-phase thermal straps with vacuum survivability and operational capability. The current effort will build upon current and previous Department of Defense-funded developments of 2-phase thermal management components with thermal conductivities in excess of 1500 W/m-K and thicknesses of less than 1-mm. Additionally, a world-class CubeSat team including LoadPath, leaders in the thermal analysis of SmallSats, has been assembled to assist in application development and demonstration. The Phase I program will culminate with a proof-of-concept demonstration of a 2-phase thermal strap designed and manufactured for operation in the harsh space environment. The successful development of the proposed space-rated thermal strap will open the door to a new class of future CubeSat and SmallSat missions.",
+        "benefits": "Potential NASA Commercial Applications: The current primary NASA target application for the proposed space-rated flexible 2-phase thermal strap technology is future CubeSat and SmallSat spacecraft. In particular, the proposed thermal strap will enable efficient heat transfer by dissipating a wide range of heat loads in widely varying environments. Further, the thin, flexible construction of the thermal strap will use less of the limited spacecraft mass and volume.",
+        "technologyMaturityStart": "3",
+        "technologyMaturityCurrent": "4",
+        "technologyMaturityEnd": "4",
+        "responsibleProgram": "SBIR/STTR",
+        "responsibleMissionDirectorateOrOffice": "Space Technology Mission Directorate",
+        "leadOrganization": {
+            "name": "Marshall Space Flight Center",
+            "type": "NASA Center",
+            "acronym": "MSFC",
+            "city": "Huntsville",
+            "state": "AL",
+            "country": "United States"
+        },
+        "workLocations": [
+            "Colorado"
+        ],
+        "programDirectors": [
+            "Jennifer L Gustetic"
+        ],
+        "programManagers": [
+            "Carlos Torrez"
+        ],
+        "principalInvestigators": [
+            "Michael Hulse"
+        ],
+        "libraryItems": [
+            {
+                "id": 26768,
+                "title": "Briefing Chart",
+                "type": "Image",
+                "description": "Flexible 2-Phase Thermal Strap for Small Sats Briefing Chart",
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 22885,
+                        "url": "https://techport.nasa.gov/file/22885",
+                        "size": 57406
+                    }
+                ]
+            },
+            {
+                "id": 30436,
+                "title": "Briefing Chart Image",
+                "type": "Image",
+                "description": "Flexible 2-Phase Thermal Strap for Small Sats, Phase I",
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 22146,
+                        "url": "https://techport.nasa.gov/file/22146",
+                        "size": 41062
+                    }
+                ]
+            }
+        ],
+        "closeoutDocuments": [
+            "https://techport.nasa.gov/file/20558",
+            "https://techport.nasa.gov/file/21798"
+        ],
+        "primaryTas": [
+            {
+                "id": 10527,
+                "code": "TA14",
+                "title": "Thermal Management Systems",
+                "priority": null
+            },
+            {
+                "id": 8830,
+                "code": "TA14.2",
+                "title": "Thermal Control Systems",
+                "priority": null
+            },
+            {
+                "id": 8953,
+                "code": "TA14.2.2",
+                "title": "Heat Transport",
+                "priority": null
+            }
+        ],
+        "additionalTas": [ ],
+        "supportingOrganizations": [
+            {
+                "name": "i2C Solutions",
+                "type": "Industry",
+                "acronym": null,
+                "city": "Louisville",
+                "state": "CO",
+                "country": "United States"
+            }
+        ]
+    },
+    "93605": {
+        "id": 93605,
+        "lastUpdated": "2018-10-10",
+        "title": "Loop Heat Pipe Manufacturing via DMLS for CubeSAT Applications, Phase II",
+        "status": "Completed",
+        "startDate": "May 2017",
+        "endDate": "May 2019",
+        "description": "Advanced Cooling Technologies, Inc. (ACT) proposes to develop a low-cost Loop Heat Pipe (LHP) evaporator using a technique known as Direct Metal Laser Sintering (DMLS), otherwise known as 3D printing, to produce low-cost LHPs to be used in CubeSat and SmallSat applications. The wick structure in an LHP assumes the role of a pump in a standard loop, pumping liquid from the lower pressure condenser to the higher pressure evaporator by capillary forces. The overall thermal performance of the system is therefore highly dependent on the in-situ characteristics of the wick structure. Current LHP wick manufacturing and installation processes are cumbersome, labor intensive, and suffer from a low yield rate. It is estimated that the cost to produce an LHP evaporator, including the attachment of the bayonet, secondary wick and compensation chamber, accounts for approximately 75% of the total system's manufacturing cost. By 3D printing an evaporator envelope with an integral porous primary wick structure, the overall complexity and cost of the design can be significantly reduced. The Phase I program was fully successful. In Phase I, an LHP with a DMLS evaporator was built using ammonia as the fluid, and carried the predicted 45 W. The overall technical objective of the Phase II program will be to design, build, and test a complete LHP thermal management system for a CubeSat. Phase II work will include further optimization of the LHP manufacturing parameters, and the development of advanced wick structures such as a graded wick design. The deliverables at the end of the Phase II will include an LHP that has been thermal vacuum tested, and a second LHP flight unit with ethanol working fluid, that can be tested at NASA's option on the ISS.",
+        "benefits": "Ammonia and propylene LHPs are currently used in most NASA and commercial satellites. In comparison with Constant Conductance Heat Pipes (CCHPs), they carry much higher powers (1 kW vs. 100 W) over longer distances (10 m vs. 2-3 m). They also are better suited for ground testability. An LHP can operate with the evaporator 2 meters above the condenser, versus 2.5 mm for a CCHP. Their main drawback is that they are two orders of magnitude more expensive to fabricate and test than CCHPs. Fabricating, machining, and inserting the primary and secondary wicks into the pump is the bulk of the fabrication expense (The remainder of the LHP is just plumbing). The first benefit of the proposed evaporator/wick fabrication will be a significant reduction in cost of LHPs supplied to NASA. A second benefit of reduced costs it that LHPs will be much more attractive for the smaller satellites, such as SmallSat and CubeSat, that NASA is now considering for future missions. The overall budget for these satellites is severely constrained when compared to the larger satellites that NASA has fabricated in the past. LHPs have not been considered in the past for these small satellites, partially due to their high cost. The reduced fabrication costs will allow ACT to fabricate smaller LHPs for these smaller satellites, at a price that is acceptable with their smaller budgets.<br /><br />ACT is one of only two companies in the United States that sells heat pipes, Variable Conductance Heat Pipes (VCHPs), and LHPs to the government and commercial customers for spacecraft thermal control. The benefits for the Air Force are similar to the benefits for NASA, both for today?s spacecraft, and for smaller satellites in the future. The commercial communications satellite market is the current primary market for LHPs. For example, one prime uses 5 to 6 LHPs on each satellite, and would also benefit from reduced costs. Finally, Universities are able to fabricate their own CubeSats for research in space; however, their budgets are much too limited to allow them to use LHPs as a thermal control tool. In addition, these SmallSats have no need for the high powers and long lengths of current LHPs. They could benefit from small size LHPs, if the cost can be significantly reduced. ACT plans to explore this market, after satisfying the higher end government and commercial markets.",
+        "technologyMaturityStart": "4",
+        "technologyMaturityCurrent": "4",
+        "technologyMaturityEnd": "6",
+        "destinations": [
+            "Earth"
+        ],
+        "responsibleProgram": "SBIR/STTR",
+        "responsibleMissionDirectorateOrOffice": "Space Technology Mission Directorate",
+        "leadOrganization": {
+            "name": "Marshall Space Flight Center",
+            "type": "NASA Center",
+            "acronym": "MSFC",
+            "city": "Huntsville",
+            "state": "AL",
+            "country": "United States"
+        },
+        "workLocations": [
+            "Pennsylvania"
+        ],
+        "programDirectors": [
+            "Jennifer L Gustetic"
+        ],
+        "programManagers": [
+            "Carlos Torrez"
+        ],
+        "principalInvestigators": [
+            "William Anderson"
+        ],
+        "libraryItems": [
+            {
+                "id": 42080,
+                "title": "Briefing Chart",
+                "type": "Document",
+                "description": "Loop Heat Pipe Manufacturing via DMLS for CubeSAT Applications, Phase II Briefing Chart",
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 31861,
+                        "url": "https://techport.nasa.gov/file/31861",
+                        "size": 67878
+                    }
+                ]
+            },
+            {
+                "id": 40746,
+                "title": "Briefing Chart Image",
+                "type": "Image",
+                "description": "Loop Heat Pipe Manufacturing via DMLS for CubeSAT Applications, Phase II Briefing Chart Image",
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 30523,
+                        "url": "https://techport.nasa.gov/file/30523",
+                        "size": 51219
+                    }
+                ]
+            }
+        ],
+        "primaryTas": [
+            {
+                "id": 10527,
+                "code": "TA14",
+                "title": "Thermal Management Systems",
+                "priority": null
+            },
+            {
+                "id": 8830,
+                "code": "TA14.2",
+                "title": "Thermal Control Systems",
+                "priority": null
+            },
+            {
+                "id": 8953,
+                "code": "TA14.2.2",
+                "title": "Heat Transport",
+                "priority": null
+            }
+        ],
+        "additionalTas": [ ]
+    },
+    "13672": {
+        "id": 13672,
+        "lastUpdated": "2018-10-10",
+        "title": "Advanced Manufacturing Technologies (AMT): Modular Rapidly Manufactured SmallSat",
+        "status": "Completed",
+        "startDate": "Oct 2013",
+        "endDate": "Sep 2014",
+        "description": "Utilize advanced manufacturing processes to design and fabricate a fully functional prototype flight model, with the goal of demonstrating rapid on-orbit assembly of a modular Small Satellite. Rapidly fabricated, modular and integrated small satellite subsystems will be developed from digital fabrication workflows. The following are planned modular components: Cube Satellite structure using state-of-the-art advanced manufacturing technologies, techniques, and materials Modular &quot;Digital Material&quot; technology for spacecraft subsystems and components to maximize payload volume Modular computing architecture to be used with Commercial Off the Shelf (COTS) microcontrollers Digital repository of widely accessible, easy to replicate and modify satellite components",
+        "benefits": "Enables the ability to develop, investigate, create and test new ideas and knowledge that otherwise will no be giving the opportunity to flourish and be develop&nbsp;",
+        "technologyMaturityStart": "3",
+        "technologyMaturityCurrent": "3",
+        "technologyMaturityEnd": "6",
+        "responsibleProgram": "Game Changing Development",
+        "responsibleMissionDirectorateOrOffice": "Space Technology Mission Directorate",
+        "leadOrganization": {
+            "name": "Ames Research Center",
+            "type": "NASA Center",
+            "acronym": "ARC",
+            "city": "Moffett Field",
+            "state": "CA",
+            "country": "United States"
+        },
+        "workLocations": [
+            "Alabama",
+            "California",
+            "Massachusetts",
+            "New York"
+        ],
+        "programDirectors": [
+            "Mary J Werkheiser"
+        ],
+        "programManagers": [
+            "Drew J Hope"
+        ],
+        "projectManagers": [
+            "John Vickers"
+        ],
+        "principalInvestigators": [
+            "Lanetra C Tate"
+        ],
+        "libraryItems": [
+            {
+                "id": 3085,
+                "title": "Current Design",
+                "type": "Image",
+                "description": "Spacecraft card 'subsystems' and Network Together",
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 3956,
+                        "url": "https://techport.nasa.gov/file/3956",
+                        "size": 233642
+                    }
+                ]
+            },
+            {
+                "id": 3084,
+                "title": "Wireless Mesh Network Topology",
+                "type": "Image",
+                "description": "Wireless Mesh Network Topology (Modular Rapidly Manufactured Small Sat)",
+                "externalUrl": null,
+                "publishedBy": null,
+                "publishedDate": null,
+                "files": [
+                    {
+                        "id": 3955,
+                        "url": "https://techport.nasa.gov/file/3955",
+                        "size": 917064
+                    }
+                ]
+            }
+        ],
+        "primaryTas": [
+            {
+                "id": 10523,
+                "code": "TA12",
+                "title": "Materials, Structures, Mechanical Systems and Manufacturing",
+                "priority": null
+            }
+        ],
+        "additionalTas": [ ],
+        "supportingOrganizations": [
+            {
+                "name": "Marshall Space Flight Center",
+                "type": "NASA Center",
+                "acronym": "MSFC",
+                "city": "Huntsville",
+                "state": "AL",
+                "country": "United States"
+            }
+        ],
+        "coFundingPartners": [
+            {
+                "name": "Cornell University",
+                "type": "Academic",
+                "acronym": null,
+                "city": "Ithaca",
+                "state": "NY",
+                "country": "United States"
+            },
+            {
+                "name": "San Jose State University",
+                "type": "Academic",
+                "acronym": null,
+                "city": "San Jose",
+                "state": "CA",
+                "country": null
+            }
+        ]
+    }
+}}

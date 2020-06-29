@@ -1,0 +1,46 @@
+<!-- templates/index.html -->
+<html>
+    <head>
+        {% if data_title %}
+        <title>{{ data_title }}</title>
+        {% else %}
+        <title>SmallSat Institute Conference/Data</title>
+        {% endif %}
+    </head>
+    <body>
+        <form action="/search" method="POST">
+            <div class="form-group">
+                <label>Data Type</label>
+                <input type="text" class="form-control" id="data_field_id" name="data_field" placeholder="Select by data type: SSC, SSD, ALL">
+                <button type="submit" class="btn btn-primary">Search</button>
+            </div>
+        </form>
+
+        {% if ssc %}
+        <h1>SmallSat Conference</h1>
+        {% for item in ssc_items %}
+        <div><p>Title: {{ item.title }}</p></div>
+        <div><p>Date: {{ item.date }}</p></div>
+        <div><p>Description: {{ item.description }}</p></div>
+        <div><p>Author/Organization: {{ item.author }}</p></div>
+        <hr>
+        {% endfor %}
+        {% else %}
+        <h1>No SSC data</h1>
+        {% endif %}
+        
+        {% if ssd %}
+        <h1>SmallSat Data</h1>
+        {% for item in ssd_items %}
+        <div><p>Title: {{ item.title }}</p></div>
+        <div><p>Date: {{ item.date }}</p></div>
+        <div><p>Description: {{ item.description }}</p></div>
+        <div><p>Author/Organization: {{ item.author }}</p></div>
+        <hr>
+        {% endfor %}
+        {% else %}
+        <h1>No SSD data</h1>
+        {% endif %}
+    </body>
+</html>
+
